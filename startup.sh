@@ -1,0 +1,2 @@
+mysql -u admin -p"raadjetochniet" -h 127.0.0.1 -P 3306 -e "CREATE DATABASE nerdygadgets;"
+mysql -h 127.0.0.1 -P 3306 -u admin -p"raadjetochniet" nerdygadgets < /home/coder/webshop/nerdygadgets-main/Database/Nerdygadgets_database.sql
